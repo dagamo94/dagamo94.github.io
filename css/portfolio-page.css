@@ -179,6 +179,11 @@ header.masthead h1 {
   font-size: 5rem;
 }
 
+.project-card{
+  margin-top: 30px;
+  margin-right: 0px;
+}
+
 .testimonials {
   padding-top: 7rem;
   padding-bottom: 7rem;
