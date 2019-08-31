@@ -5,20 +5,26 @@
  */
 
 body {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Libre Baskerville', serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Libre Baskerville', serif;
   font-weight: 700;
 }
 
 nav {
+  font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 700;
   background-color: rgba(255, 255, 255, 0.0) !important;
   margin: 50px 0 0 0;
   padding-left: 200px;
   transition: margin 200ms ease-in, background-color 200ms linear;
 
+}
+
+.navbar-brand{
+  font-family: 'Libre Baskerville', serif;
 }
 
 .fixed-top.scrolled {
@@ -208,7 +214,7 @@ header.masthead h1 {
   /* background: url("../img/bg-masthead.jpg") no-repeat center center;
   background-size: cover; */
   padding-top: 0rem;
-  padding-bottom: 7rem;
+  padding-bottom: 2rem;
 }
 
 /* .call-to-action .overlay {
